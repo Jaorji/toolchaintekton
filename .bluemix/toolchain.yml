@@ -5,7 +5,7 @@ services:
         content:
           $text: pipeline_pipeline00.yml
         env:
-          repo: repo
+          GIT_REPO: repo
       label: deleteme
       name: deleteme
       services:
