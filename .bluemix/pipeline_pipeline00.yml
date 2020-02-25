@@ -2,6 +2,6 @@ inputs:
 - branch: master
   path: .tekton
   type: git
-  service: ${GIT_REPO}
+  service: ${repo}
 properties: []
 triggers: []
